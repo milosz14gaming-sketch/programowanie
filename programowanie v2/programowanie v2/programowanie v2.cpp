@@ -1,12 +1,18 @@
 ﻿// programowanie v2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+//to jest kometar z
 
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+    std::cout << "Hello World! /n"; // stała łańcuchowa; stała tekstowa
+    std::cout << "Hel/to World!\n";
+    std::cout << 'h';//stała znakowa
+    std::cout << '/n'; //stała znakowa
+    std::cout << 59; // stała całkowitoliczbowa
+    std::cout << '/n';
+    std::cout << -2.5; // stała rzeczywista 
+    std::cout << "Pierwsza liczba " << 254 << 'kolejny tekst 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
